@@ -1,0 +1,90 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  width: 1440px;
+  margin: 20px auto;
+  font-family: "Outfit";
+}
+
+.recipe-container {
+  width: 50%;
+  margin: 100px auto;
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border-radius: 2%;
+}
+
+.recipe-container > img {
+  width: 100%;
+  border-radius: 2.2%;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Young Serif";
+  opacity: 90%;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif";
+}
+
+.preparation-time-container {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px 20px;
+  border-radius: 3%;
+  line-height: 2;
+}
+
+.preparation-time-container > h3 {
+  padding-left: 1.4rem;
+  margin-bottom: 0px;
+}
+
+.preparation-time-container > ul {
+  margin-top: 0;
+}
+
+body > div.recipe-container > div.ingredients-list > ul {
+  padding-left: 30px;
+}
+
+body > div.recipe-container > div.ingredients-list > ul > li {
+  line-height: 2;
+}
+
+body > div.recipe-container > div.ingredients-list > h2 {
+  margin-bottom: 20px;
+}
+
+hr {
+  border-top: 0.1px solid black;
+  width: 100%;
+  margin: 0 auto;
+  opacity: 20%;
+  margin-bottom: 1rem;
+}
+
+body > div.recipe-container > div.instructions > ul {
+  padding-left: 0.8rem;
+  list-style: none;
+}
+
+.instructions li {
+  margin: 1rem auto;
+}
+
+.instructions > ul > li > span {
+  margin-right: 0px;
+}
+
+.nutrition > p > span {
+  position: relative;
+  left: 30%;
+}
